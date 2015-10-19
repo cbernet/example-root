@@ -1,6 +1,6 @@
 
-add_executable(analysiscpp-read read.cc)
+add_executable(exampleroot-read read.cc)
 
-target_link_libraries(analysiscpp-read utilities datamodel albers)
+target_link_libraries(exampleroot-read utilities datamodel albers)
 
-install(TARGETS analysiscpp-read DESTINATION bin)
+install(TARGETS exampleroot-read DESTINATION bin)
